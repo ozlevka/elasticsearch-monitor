@@ -54,4 +54,4 @@ services:
         - devcluster
 networks:
   devcluster:
-    driver: overlay
+    driver: bridge
