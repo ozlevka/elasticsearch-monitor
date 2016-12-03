@@ -35,7 +35,7 @@ metricbeat.modules:
     #- memory
 
     # Network stats
-    #- network
+    - network
 
     # Per process stats
     #- process

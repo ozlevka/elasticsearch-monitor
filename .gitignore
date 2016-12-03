@@ -75,6 +75,10 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+#PyCharm idea
+*.iml
+.idea/
+
 # dotenv
 .env
 
