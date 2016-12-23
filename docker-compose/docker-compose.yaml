@@ -20,7 +20,7 @@ services:
         ES_HEAP_SIZE: 2g
       mem_limit: 3g
       volumes:
-        - /home/ozlevka/newdisk/data/monitor/cluster:/usr/share/elasticsearch/data
+        - /home/ozlevka/bigdisk/data/monitor/cluster:/usr/share/elasticsearch/data
         - /etc/localtime:/etc/localtime:ro
       links: 
         - master
@@ -33,7 +33,7 @@ services:
         ES_HEAP_SIZE: 2g
       mem_limit: 3g
       volumes:
-        - /home/ozlevka/newdisk/data/monitor/cluster:/usr/share/elasticsearch/data
+        - /home/ozlevka/bigdisk/data/monitor/cluster:/usr/share/elasticsearch/data
         - /etc/localtime:/etc/localtime:ro
       links: 
         - master

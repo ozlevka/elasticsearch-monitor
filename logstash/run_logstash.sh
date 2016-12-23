@@ -1,1 +1,1 @@
-docker run --rm -it --network elasticsec_testcluster -v '/home/ozlevka/bigdisk/data/security:/data-dir' -v '/home/ozlevka/bigdisk/projects/elasticsec:/config-dir' logstash logstash -f /config-dir/logstash.config
+docker run --rm -it --network dockercompose_devcluster -v '/bigdisk/projects/elasticsearch-monitor/logstash:/config-dir' logstash logstash -f /config-dir/es-stats.conf
