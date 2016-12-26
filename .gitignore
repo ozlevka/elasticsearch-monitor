@@ -91,3 +91,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Java, don's save jars
+*.jar
+
+# Don't save logs directories
+logs/
