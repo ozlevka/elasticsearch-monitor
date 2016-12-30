@@ -1,1 +1,1 @@
-docker run --rm -it --network dockercompose_devcluster -v '/home/ozlevka/bigdisk/projects/elasticsearch-monitor/logstash:/config-dir' logstash logstash -f /config-dir/es-stats.conf
+docker run --rm -it --network dockercompose_devcluster -v '/home/ozlevka/bigdisk/projects/elasticsearch-monitor/logstash:/config-dir' ozlevka/logstash-aggregate logstash -f /config-dir/nodes-stats.conf
